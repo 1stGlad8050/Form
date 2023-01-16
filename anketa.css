@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1,300 & display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #2c2f35;
+  background-color: #d1cece;
+  margin-bottom: 120px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.name {
+  text-align: center;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.info-text {
+  font-style: italic;
+  font-weight: normal;
+  color: rgb(62, 69, 69);
+  margin: 0;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media (max-width: 688px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.objective {
+  font-style: italic;
+  font-weight: normal;
+  color: rgb(62, 69, 69);
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-color: rgb(254, 254, 254);
+}
+
+.objective h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.card {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 15px;
+  padding-top: 1px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.studies {
+  width: 40%;
+  margin: auto;
+  font-style: italic;
+}
+
+.dop {
+  font-size: 10px;
+}
+
+.table2 {
+  width: 100%;
+}
+.table2 th {
+  border-style: solid;
+}
+.table2 td {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.table2 td:nth-child(1) {
+  color: rgb(114, 111, 111);
+}
+
+.cont {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 15px;
+  padding-top: 1px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.table3 {
+  width: 90%;
+  margin-left: ;
+}
+
+.logo1 {
+  width: 75px;
+}
+.logo2 {
+  width: 50px;
+}
+
+a {
+  color: #2c2f35;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+}
+a:active {
+  color: cadetblue;
+}
